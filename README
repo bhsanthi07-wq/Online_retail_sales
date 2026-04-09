@@ -1,0 +1,89 @@
+# project title
+Online_Retail_sales
+
+## project Description
+This project focuses on analyzing an online retail sales dataset to understand sales patterns, customers behaviour and business performance.The data was cleaned by handling missing values, remove duplicates, correcting data types and perform Exploratory data analysis(EDA).And visualizations to derive meaningful insights from the dataset.
+
+## Objectives
+* To analyze online retail sales data to understand business performance
+* To perform data cleaning by handling missing values and duplicates
+* To convert and correct data types for accurate analysis
+* To identify top customers and high-performing countries
+* To analyze sales trends based on time (hour, month, year)
+* To visualize data using charts for better understanding
+* To detect outliers in quantity and price
+
+## Project Structure
+Online_Retail_sales/
+│
+├── data/
+│   └── Online_Retail_Sales.csv
+│
+├── notebooks/
+│   └── Online_Retail_sales.py
+│
+├── images/
+│   ├── country_shares.png
+│   ├── quantity_vs_unitprice.png
+│   ├── top 10 customers.png
+│   └── quantity_outliers.png
+|   |__ hours-wise_sales.png
+│
+├── README.md
+
+## Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* visual studio code
+
+## Data Analysis Steps
+1. Import libraries
+2. Load dataset
+3. Dataset overview and structure
+4. Check duplicates
+5. Handle missing values
+6. Check Null values
+7. Remove Null values
+8. count unqiue values
+9. covert data type
+10. Perform basic analysis:
+   * Total sales
+   * Average sales
+   * Total products
+   * montly sales
+
+## Data Visualizations
+### Country shares
+* It shows the which country contributes more orders.
+* Insight: The United kingdom contributes the highest number of orders compared to other countries.
+
+### Quantity vs UnitPrice
+* It shows the relationship between quantity and unitprice.
+* insight: The majority of data points are shows at lower quantity and lower unitprice.
+
+### Top 10 customers
+* It indicate top 10 customers to order large number of products.
+* Insight: These top 10 customers are contribute large number of oders.
+
+### Quantity Outliers
+* It indicates the outliers in a quantity.
+* Insight: My dataset contains significant outliers in quantity.
+
+### Hours-wise sales
+* It shows hours-wise sales per day.
+* Insight: Sales are concentrated during specific hours of the day.
+
+## Key Insights
+* The United kingdom contributes the highest number of orders compared to other countries.
+* The majority of data points are shows at lower quantity and lower unitprice.
+* These top 10 customers are contribute large number of oders.
+* My dataset contains significant outliers in quantity.
+* Sales are concentrated during specific hours of the day.
+
+## Feature Improvements
+* Perform monthly and yearly trend analysis for better time insights
+* Apply machine learning models to predict future sales
+* Analyze product performance to identify best-selling items
